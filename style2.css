@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8dc; /* amarelo clarinho */
+  }
+  
+  header {
+    background-color: #0033cc; /* azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  main {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .carros {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+  }
+  
+  .carro {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  .erro {
+    color: red;
+  }
+
+  .carros {
+    margin-top:50px;
+  }
+
+  img {
+    width:250px;
+    height:auto;
+    margin:10px;
+  }
+  

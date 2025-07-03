@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Escolha seu Veículo</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>Aluguel de Veículos</header>
+  <main>
+    <h2>Escolha um veículo:</h2>
+    <div class="carros">
+      <div class="carro" onclick="selecionarCarro('Fiat Uno')">
+        <img src="imagens/carro1.png" alt="Fiat Uno">
+        <p>Fiat Uno</p>
+      </div>
+      <div class="carro" onclick="selecionarCarro('Chevrolet Onix')">
+        <img src="imagens/carro2.png" alt="Onix">
+        <p>Chevrolet Onix</p>
+      </div>
+    </div>
+
+    <div id="formMotorista" class="oculto">
+      <h3>Dados do Motorista</h3>
+      <p id="veiculoSelecionado"></p>
+      <input type="text" id="nomeMotorista" placeholder="Nome do Motorista" required>
+      <input type="text" id="cnhMotorista" placeholder="Número da CNH" required>
+      <button onclick="finalizarAluguel()">Finalizar Pedido</button>
+      <p id="mensagemSucesso"></p>
+    </div>
+  </main>
+  <script src="script4.js"></script>
+</body>
+</html>
